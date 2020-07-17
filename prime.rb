@@ -1,13 +1,4 @@
 
-def prime?(num)
-  if (2..num/2).any{|n|num % n == 0}
-    return true
-  else
-    return false
- end
- 
-end
-
 def prime?(number)
   if !number.integer?
     return false
